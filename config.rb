@@ -31,6 +31,11 @@ activate :autoprefixer
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+["seb", "romain", "romeu"].each do |name|
+  proxy "/about/#{name}.html", "/about/template.html", :locals => { :person_name => name }, :ignore => true
+end
+
+
 ###
 # Helpers
 ###
