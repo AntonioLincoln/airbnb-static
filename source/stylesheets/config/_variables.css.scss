@@ -17,24 +17,24 @@ $header-font: "Raleway", "Helvetica", "sans-serif";
 // $my-font: "Font Name";
 
 // Font-size and line-height
-$base-size: 16px;
+$base-size: 20px;
 $base-height: 1.4;
 
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
 // Scheme
-$brand-color: #D23333;
+$brand-color: #D245D2;
 
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
+$red: #EE0F48;
+$blue: #132AE0;
+$yellow: #FDFA23;
+$orange: #E66D0C;
+$green: #247F0C;
 
 // Gray scale
-$gray-darker:  lighten(#000, 13.5%); // #222
-$gray-dark:    lighten(#000, 20%);   // #333
-$gray:         lighten(#000, 33.5%); // #555
-$gray-light:   lighten(#000, 46.7%); // #777
+$gray-darker:  lighten(#000, 23.5%); // #222
+$gray-dark:    lighten(#000, 30%);   // #333
+$gray:         lighten(#000, 43.5%); // #555
+$gray-light:   lighten(#000, 56.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
